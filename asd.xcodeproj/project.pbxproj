@@ -13,6 +13,23 @@
 		022584CC21F8C01D003FEF34 /* asd.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 022584CA21F8C01D003FEF34 /* asd.xcdatamodeld */; };
 		022584CE21F8C01F003FEF34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 022584CD21F8C01F003FEF34 /* Assets.xcassets */; };
 		022584D121F8C01F003FEF34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 022584CF21F8C01F003FEF34 /* LaunchScreen.storyboard */; };
+		022584D921F8C612003FEF34 /* DestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022584D821F8C612003FEF34 /* DestinationViewController.swift */; };
+		028D1AF621FE31C700C1FDAD /* AddDiaryScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028D1AF521FE31C700C1FDAD /* AddDiaryScreenViewController.swift */; };
+		02AF139121FA0E5800080A15 /* KDCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AF139021FA0E5800080A15 /* KDCircularProgress.swift */; };
+		02AF13B321FA171600080A15 /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AF13B221FA171600080A15 /* DiaryViewController.swift */; };
+		02AF13B521FA183B00080A15 /* SafakViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AF13B421FA183B00080A15 /* SafakViewController.swift */; };
+		02AF13B721FA185400080A15 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AF13B621FA185400080A15 /* SettingsViewController.swift */; };
+		02B2DD0821FD268D005E4CBB /* RAMAnimatedTabBarController+BottomLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B2DCF821FD268D005E4CBB /* RAMAnimatedTabBarController+BottomLine.swift */; };
+		02B2DD0921FD268D005E4CBB /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B2DCF921FD268D005E4CBB /* RAMAnimatedTabBarController.swift */; };
+		02B2DD0A21FD268D005E4CBB /* RAMBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B2DCFB21FD268D005E4CBB /* RAMBadge.swift */; };
+		02B2DD0B21FD268D005E4CBB /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B2DCFC21FD268D005E4CBB /* RAMItemAnimationProtocol.swift */; };
+		02B2DD0C21FD268D005E4CBB /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B2DCFF21FD268D005E4CBB /* RAMFumeAnimation.swift */; };
+		02B2DD0D21FD268D005E4CBB /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B2DD0121FD268D005E4CBB /* RAMFrameItemAnimation.swift */; };
+		02B2DD0E21FD268D005E4CBB /* RAMTransitionItemAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B2DD0321FD268D005E4CBB /* RAMTransitionItemAnimations.swift */; };
+		02B2DD0F21FD268D005E4CBB /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B2DD0521FD268D005E4CBB /* RAMRotationAnimation.swift */; };
+		02B2DD1021FD268D005E4CBB /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B2DD0721FD268D005E4CBB /* RAMBounceAnimation.swift */; };
+		02B2DD1221FD3AD2005E4CBB /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B2DD1121FD3AD1005E4CBB /* ProfileTableViewController.swift */; };
+		ED322AF5E9536B9855ADB4FF /* Pods_asd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4E8E720649677AA8F8E6395 /* Pods_asd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +41,25 @@
 		022584CD21F8C01F003FEF34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		022584D021F8C01F003FEF34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		022584D221F8C01F003FEF34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		022584D821F8C612003FEF34 /* DestinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationViewController.swift; sourceTree = "<group>"; };
+		028D1AF521FE31C700C1FDAD /* AddDiaryScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDiaryScreenViewController.swift; sourceTree = "<group>"; };
+		02AF139021FA0E5800080A15 /* KDCircularProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDCircularProgress.swift; sourceTree = "<group>"; };
+		02AF13B221FA171600080A15 /* DiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
+		02AF13B421FA183B00080A15 /* SafakViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafakViewController.swift; sourceTree = "<group>"; };
+		02AF13B621FA185400080A15 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		02B2DCF821FD268D005E4CBB /* RAMAnimatedTabBarController+BottomLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RAMAnimatedTabBarController+BottomLine.swift"; sourceTree = "<group>"; };
+		02B2DCF921FD268D005E4CBB /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
+		02B2DCFB21FD268D005E4CBB /* RAMBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMBadge.swift; sourceTree = "<group>"; };
+		02B2DCFC21FD268D005E4CBB /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
+		02B2DCFF21FD268D005E4CBB /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFumeAnimation.swift; sourceTree = "<group>"; };
+		02B2DD0121FD268D005E4CBB /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
+		02B2DD0321FD268D005E4CBB /* RAMTransitionItemAnimations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMTransitionItemAnimations.swift; sourceTree = "<group>"; };
+		02B2DD0521FD268D005E4CBB /* RAMRotationAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMRotationAnimation.swift; sourceTree = "<group>"; };
+		02B2DD0721FD268D005E4CBB /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMBounceAnimation.swift; sourceTree = "<group>"; };
+		02B2DD1121FD3AD1005E4CBB /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		8B70A5D7647F0FC78961BED7 /* Pods-asd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-asd.debug.xcconfig"; path = "Pods/Target Support Files/Pods-asd/Pods-asd.debug.xcconfig"; sourceTree = "<group>"; };
+		8C58CEB141A211D1BB443A98 /* Pods-asd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-asd.release.xcconfig"; path = "Pods/Target Support Files/Pods-asd/Pods-asd.release.xcconfig"; sourceTree = "<group>"; };
+		E4E8E720649677AA8F8E6395 /* Pods_asd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_asd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED322AF5E9536B9855ADB4FF /* Pods_asd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +79,8 @@
 			children = (
 				022584C221F8C01D003FEF34 /* asd */,
 				022584C121F8C01D003FEF34 /* Products */,
+				128330BB6ABF309F006D56F6 /* Pods */,
+				3B8AA02D6A9BFB664263452A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +95,120 @@
 		022584C221F8C01D003FEF34 /* asd */ = {
 			isa = PBXGroup;
 			children = (
+				02B2DCF621FD268D005E4CBB /* RAMAnimatedTabBarController */,
 				022584C321F8C01D003FEF34 /* AppDelegate.swift */,
-				022584C521F8C01D003FEF34 /* ViewController.swift */,
+				02AF139021FA0E5800080A15 /* KDCircularProgress.swift */,
+				02AF13B221FA171600080A15 /* DiaryViewController.swift */,
+				02AF13B421FA183B00080A15 /* SafakViewController.swift */,
+				02AF13B621FA185400080A15 /* SettingsViewController.swift */,
+				02B2DD1121FD3AD1005E4CBB /* ProfileTableViewController.swift */,
 				022584C721F8C01D003FEF34 /* Main.storyboard */,
 				022584CD21F8C01F003FEF34 /* Assets.xcassets */,
 				022584CF21F8C01F003FEF34 /* LaunchScreen.storyboard */,
 				022584D221F8C01F003FEF34 /* Info.plist */,
 				022584CA21F8C01D003FEF34 /* asd.xcdatamodeld */,
+				022584D821F8C612003FEF34 /* DestinationViewController.swift */,
+				022584C521F8C01D003FEF34 /* ViewController.swift */,
+				028D1AF521FE31C700C1FDAD /* AddDiaryScreenViewController.swift */,
 			);
 			path = asd;
+			sourceTree = "<group>";
+		};
+		02B2DCF621FD268D005E4CBB /* RAMAnimatedTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				02B2DCF721FD268D005E4CBB /* BottomLine */,
+				02B2DCF921FD268D005E4CBB /* RAMAnimatedTabBarController.swift */,
+				02B2DCFA21FD268D005E4CBB /* RAMBadge */,
+				02B2DCFC21FD268D005E4CBB /* RAMItemAnimationProtocol.swift */,
+				02B2DCFD21FD268D005E4CBB /* Animations */,
+			);
+			path = RAMAnimatedTabBarController;
+			sourceTree = "<group>";
+		};
+		02B2DCF721FD268D005E4CBB /* BottomLine */ = {
+			isa = PBXGroup;
+			children = (
+				02B2DCF821FD268D005E4CBB /* RAMAnimatedTabBarController+BottomLine.swift */,
+			);
+			path = BottomLine;
+			sourceTree = "<group>";
+		};
+		02B2DCFA21FD268D005E4CBB /* RAMBadge */ = {
+			isa = PBXGroup;
+			children = (
+				02B2DCFB21FD268D005E4CBB /* RAMBadge.swift */,
+			);
+			path = RAMBadge;
+			sourceTree = "<group>";
+		};
+		02B2DCFD21FD268D005E4CBB /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				02B2DCFE21FD268D005E4CBB /* FumeAnimation */,
+				02B2DD0021FD268D005E4CBB /* FrameAnimation */,
+				02B2DD0221FD268D005E4CBB /* TransitionAniamtions */,
+				02B2DD0421FD268D005E4CBB /* RotationAnimation */,
+				02B2DD0621FD268D005E4CBB /* BounceAnimation */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		02B2DCFE21FD268D005E4CBB /* FumeAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				02B2DCFF21FD268D005E4CBB /* RAMFumeAnimation.swift */,
+			);
+			path = FumeAnimation;
+			sourceTree = "<group>";
+		};
+		02B2DD0021FD268D005E4CBB /* FrameAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				02B2DD0121FD268D005E4CBB /* RAMFrameItemAnimation.swift */,
+			);
+			path = FrameAnimation;
+			sourceTree = "<group>";
+		};
+		02B2DD0221FD268D005E4CBB /* TransitionAniamtions */ = {
+			isa = PBXGroup;
+			children = (
+				02B2DD0321FD268D005E4CBB /* RAMTransitionItemAnimations.swift */,
+			);
+			path = TransitionAniamtions;
+			sourceTree = "<group>";
+		};
+		02B2DD0421FD268D005E4CBB /* RotationAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				02B2DD0521FD268D005E4CBB /* RAMRotationAnimation.swift */,
+			);
+			path = RotationAnimation;
+			sourceTree = "<group>";
+		};
+		02B2DD0621FD268D005E4CBB /* BounceAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				02B2DD0721FD268D005E4CBB /* RAMBounceAnimation.swift */,
+			);
+			path = BounceAnimation;
+			sourceTree = "<group>";
+		};
+		128330BB6ABF309F006D56F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B70A5D7647F0FC78961BED7 /* Pods-asd.debug.xcconfig */,
+				8C58CEB141A211D1BB443A98 /* Pods-asd.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3B8AA02D6A9BFB664263452A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4E8E720649677AA8F8E6395 /* Pods_asd.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 022584D521F8C01F003FEF34 /* Build configuration list for PBXNativeTarget "asd" */;
 			buildPhases = (
+				5F791A10CBA6C908E922A5DE /* [CP] Check Pods Manifest.lock */,
 				022584BC21F8C01D003FEF34 /* Sources */,
 				022584BD21F8C01D003FEF34 /* Frameworks */,
 				022584BE21F8C01D003FEF34 /* Resources */,
+				79D5A9F71D614FCC0C64F4EC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +279,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5F791A10CBA6C908E922A5DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-asd-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79D5A9F71D614FCC0C64F4EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-asd/Pods-asd-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PNChart/PNChart.framework",
+				"${BUILT_PRODUCTS_DIR}/UICountingLabel/UICountingLabel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PNChart.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICountingLabel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-asd/Pods-asd-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		022584BC21F8C01D003FEF34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02B2DD1221FD3AD2005E4CBB /* ProfileTableViewController.swift in Sources */,
+				028D1AF621FE31C700C1FDAD /* AddDiaryScreenViewController.swift in Sources */,
 				022584C621F8C01D003FEF34 /* ViewController.swift in Sources */,
+				02B2DD0921FD268D005E4CBB /* RAMAnimatedTabBarController.swift in Sources */,
+				02B2DD0B21FD268D005E4CBB /* RAMItemAnimationProtocol.swift in Sources */,
+				02AF139121FA0E5800080A15 /* KDCircularProgress.swift in Sources */,
+				02B2DD0D21FD268D005E4CBB /* RAMFrameItemAnimation.swift in Sources */,
+				02B2DD0F21FD268D005E4CBB /* RAMRotationAnimation.swift in Sources */,
+				02B2DD0821FD268D005E4CBB /* RAMAnimatedTabBarController+BottomLine.swift in Sources */,
+				02B2DD0A21FD268D005E4CBB /* RAMBadge.swift in Sources */,
 				022584C421F8C01D003FEF34 /* AppDelegate.swift in Sources */,
 				022584CC21F8C01D003FEF34 /* asd.xcdatamodeld in Sources */,
+				02AF13B321FA171600080A15 /* DiaryViewController.swift in Sources */,
+				02AF13B521FA183B00080A15 /* SafakViewController.swift in Sources */,
+				02B2DD0C21FD268D005E4CBB /* RAMFumeAnimation.swift in Sources */,
+				022584D921F8C612003FEF34 /* DestinationViewController.swift in Sources */,
+				02AF13B721FA185400080A15 /* SettingsViewController.swift in Sources */,
+				02B2DD1021FD268D005E4CBB /* RAMBounceAnimation.swift in Sources */,
+				02B2DD0E21FD268D005E4CBB /* RAMTransitionItemAnimations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,9 +495,11 @@
 		};
 		022584D621F8C01F003FEF34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B70A5D7647F0FC78961BED7 /* Pods-asd.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7JBV3PB93;
 				INFOPLIST_FILE = asd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,9 +514,11 @@
 		};
 		022584D721F8C01F003FEF34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C58CEB141A211D1BB443A98 /* Pods-asd.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7JBV3PB93;
 				INFOPLIST_FILE = asd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

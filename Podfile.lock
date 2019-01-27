@@ -1,0 +1,28 @@
+PODS:
+  - PNChart (0.8.11):
+    - UICountingLabel (~> 1.4.1)
+  - UICountingLabel (1.4.1)
+
+DEPENDENCIES:
+  - PNChart (from `https://github.com/kevinzhow/PNChart.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - UICountingLabel
+
+EXTERNAL SOURCES:
+  PNChart:
+    :git: https://github.com/kevinzhow/PNChart.git
+
+CHECKOUT OPTIONS:
+  PNChart:
+    :commit: 75e54fe69609f3c2e446e6d8ff995977a273098a
+    :git: https://github.com/kevinzhow/PNChart.git
+
+SPEC CHECKSUMS:
+  PNChart: 7c03cd9afb46dd157d22425c6147167c1ae741b5
+  UICountingLabel: faf890b505d96312e324a86718f031fafffb0ccb
+
+PODFILE CHECKSUM: ed428c0d9448e9479e5f5796042b5bd565a4e49a
+
+COCOAPODS: 1.5.3

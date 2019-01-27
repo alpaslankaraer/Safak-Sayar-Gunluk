@@ -1,0 +1,1 @@
+echo "# Safak-Sayar-Gunluk"
