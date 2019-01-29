@@ -19,22 +19,22 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
-    @IBAction func segueTapped(_ sender: Any) {
-        
-        let mainStoryboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-        
-        guard let DestinationViewController = mainStoryboard.instantiateViewController(withIdentifier: "DestinationViewController") as? DestinationViewController else {
-            print("Couldn't find the view controller")
-            return
-            
-        }
-        
-        DestinationViewController.modalTransitionStyle = .partialCurl
-        
-        present(DestinationViewController,animated: true, completion: nil)
-        
-        //navigationController?.pushViewController(DestinationViewController, animated: true)
-    }
+//    @IBAction func segueTapped(_ sender: Any) {
+//        
+//        let mainStoryboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+//        
+//        guard let DestinationViewController = mainStoryboard.instantiateViewController(withIdentifier: "DestinationViewController") as? DestinationViewController else {
+//            print("Couldn't find the view controller")
+//            return
+//            
+//        }
+//        
+//        DestinationViewController.modalTransitionStyle = .partialCurl
+//        
+//        present(DestinationViewController,animated: true, completion: nil)
+//        
+//        //navigationController?.pushViewController(DestinationViewController, animated: true)
+//    }
     
 }
 

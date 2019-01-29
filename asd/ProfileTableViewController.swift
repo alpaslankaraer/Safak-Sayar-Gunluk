@@ -28,6 +28,14 @@ class ProfileTableViewController: UITableViewController {
         return 3
     }
     
+    // MARK: Actions
+    @IBAction func unwindToDiaryList(sender: UIStoryboardSegue) {
+        if let selectedIndexPath = tableView.indexPathForSelectedRow {
+                tableView.reloadRows(at: [selectedIndexPath], with: .none)
+            }
+        }
+    }
+    
 //    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 //        // 1
 //        guard let identifier = segue.identifier else { return }
@@ -44,4 +52,4 @@ class ProfileTableViewController: UITableViewController {
 //        }
 //    }
     
-}
+
