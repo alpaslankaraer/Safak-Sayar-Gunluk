@@ -15,10 +15,18 @@ class DiaryViewController: UIViewController, UITextViewDelegate, UITextFieldDele
     // MARK Properties
     @IBOutlet weak var photoImageView: UIImageView!
     @IBOutlet weak var titleTextField: UITextField!
-    @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var diaryTextArea: UITextView!
     @IBOutlet weak var saveButton: UIBarButtonItem!
     
+    
+    
+    var activityViewController: UIActivityViewController?
+    
+    @IBAction func shareButton(_ sender: UIBarButtonItem) {
+        activityViewController = UIActivityViewController(activityItems: [titleTextField.text! as NSString, diaryTextArea.text! as NSString, photoImageView.image! as UIImage], applicationActivities: nil)
+        
+        present(activityViewController!, animated: true, completion: nil)
+    }
     /*
      This value is either passed by `DiaryTableViewController` in `prepare(for:sender:)`
      or constructed as part of adding a new meal.
@@ -44,16 +52,39 @@ class DiaryViewController: UIViewController, UITextViewDelegate, UITextFieldDele
             photoImageView.image = diary.photo
             diaryTextArea.text = diary.detail
             
-            let currentDateTime = Date().timeIntervalSinceNow
-            dateLabel.text = String(currentDateTime)
-            //dateLabel.text = diary.date.addingTimeInterval
+            
         }
         
         // Do any additional setup after loading the view.
         
         // Enable the Save button only if the text field has a valid Meal name.
         updateSaveButtonState()
+        
+        //getCurrentDateTime()
+        //getSingle()
     }
+//
+//    func getCurrentDateTime () {
+//        let formatter = DateFormatter()
+//        formatter.dateStyle = .short
+//        formatter.timeStyle = .medium
+//        let str = formatter.string(from: Date())
+//        dateLabel.text = str
+//
+//    }
+//
+//    func getSingle() {
+//        let date = Date()
+//        let calendar = Calendar.current
+//        let year = calendar.component(.year, from: date)
+//        let month = calendar.component(.month, from: date)
+//        let day = calendar.component(.day, from: date)
+//
+//        dateLabel.text = "\(day).\(month).\(year)"
+//        print("\(day).\(month).\(year)")
+//
+//    }
+    
     
 //    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
 //        self.diaryTextArea.endEditing(true)
@@ -131,9 +162,14 @@ class DiaryViewController: UIViewController, UITextViewDelegate, UITextFieldDele
         let title = titleTextField.text ?? ""
         let diaryDetail = diaryTextArea.text ?? ""
         let photo = photoImageView.image
-        let date = dateLabel
         
-        diary = Diary(title: title, detail: diaryDetail, photo: photo, date: date as! NSDate)
+        
+        let date = Date()
+        let formatter = DateFormatter()
+        formatter.dateFormat = "dd/MM/yyyy"
+        var dateString = formatter.string(from: date as Date)
+        
+        diary = Diary(title: title, detail: diaryDetail, photo: photo, date: Date() as NSDate)
         
     }
     
@@ -171,8 +207,8 @@ class DiaryViewController: UIViewController, UITextViewDelegate, UITextFieldDele
         // Disable the Save button if the text field is empty.
         let text = titleTextField.text ?? ""
         let detail = diaryTextArea.text ?? ""
-        saveButton.isEnabled = !text.isEmpty
-        saveButton.isEnabled = !detail.isEmpty
+        saveButton.isEnabled = !text.isEmpty || !detail.isEmpty
+        //saveButton.isEnabled = !detail.isEmpty
     }
     
     @objc func updateTextView(notification : Notification) {

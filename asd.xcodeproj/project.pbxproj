@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0204CBB5220128BF006C8456 /* DiariesMO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0204CBB4220128BE006C8456 /* DiariesMO.swift */; };
+		0204CBB72201290D006C8456 /* DiariesMO+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0204CBB62201290D006C8456 /* DiariesMO+CoreDataProperties.swift */; };
 		022584C421F8C01D003FEF34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022584C321F8C01D003FEF34 /* AppDelegate.swift */; };
-		022584C621F8C01D003FEF34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022584C521F8C01D003FEF34 /* ViewController.swift */; };
 		022584C921F8C01D003FEF34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 022584C721F8C01D003FEF34 /* Main.storyboard */; };
 		022584CC21F8C01D003FEF34 /* asd.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 022584CA21F8C01D003FEF34 /* asd.xcdatamodeld */; };
 		022584CE21F8C01F003FEF34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 022584CD21F8C01F003FEF34 /* Assets.xcassets */; };
@@ -54,9 +55,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0204CBB4220128BE006C8456 /* DiariesMO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiariesMO.swift; sourceTree = "<group>"; };
+		0204CBB62201290D006C8456 /* DiariesMO+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DiariesMO+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		022584C021F8C01D003FEF34 /* asd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = asd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		022584C321F8C01D003FEF34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		022584C521F8C01D003FEF34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		022584C821F8C01D003FEF34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		022584CB21F8C01D003FEF34 /* asd.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = asd.xcdatamodel; sourceTree = "<group>"; };
 		022584CD21F8C01F003FEF34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -149,7 +151,6 @@
 				02AF13B421FA183B00080A15 /* SafakViewController.swift */,
 				02AF13B621FA185400080A15 /* SettingsViewController.swift */,
 				02B2DD1121FD3AD1005E4CBB /* ProfileTableViewController.swift */,
-				028D1AF521FE31C700C1FDAD /* AddDiaryScreenViewController.swift */,
 				022584C721F8C01D003FEF34 /* Main.storyboard */,
 				02A2CEEE21FF193F00648E94 /* DiaryTableViewController.swift */,
 				02A2CEF021FF27B700648E94 /* DiaryViewController.swift */,
@@ -159,7 +160,9 @@
 				022584CF21F8C01F003FEF34 /* LaunchScreen.storyboard */,
 				022584D221F8C01F003FEF34 /* Info.plist */,
 				022584CA21F8C01D003FEF34 /* asd.xcdatamodeld */,
-				022584C521F8C01D003FEF34 /* ViewController.swift */,
+				0204CBB4220128BE006C8456 /* DiariesMO.swift */,
+				0204CBB62201290D006C8456 /* DiariesMO+CoreDataProperties.swift */,
+				028D1AF521FE31C700C1FDAD /* AddDiaryScreenViewController.swift */,
 			);
 			path = asd;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 				022584BD21F8C01D003FEF34 /* Frameworks */,
 				022584BE21F8C01D003FEF34 /* Resources */,
 				79D5A9F71D614FCC0C64F4EC /* [CP] Embed Pods Frameworks */,
+				2BCD0FAFA0071D343A89808F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -409,6 +413,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2BCD0FAFA0071D343A89808F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-asd/Pods-asd-resources.sh",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-asd/Pods-asd-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5F791A10CBA6C908E922A5DE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -441,6 +467,8 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-asd/Pods-asd-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/PNChart/PNChart.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
 				"${BUILT_PRODUCTS_DIR}/UICountingLabel/UICountingLabel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -448,6 +476,8 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PNChart.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICountingLabel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,7 +494,6 @@
 			files = (
 				02B2DD1221FD3AD2005E4CBB /* ProfileTableViewController.swift in Sources */,
 				028D1AF621FE31C700C1FDAD /* AddDiaryScreenViewController.swift in Sources */,
-				022584C621F8C01D003FEF34 /* ViewController.swift in Sources */,
 				02B2DD0921FD268D005E4CBB /* RAMAnimatedTabBarController.swift in Sources */,
 				02B2DD0B21FD268D005E4CBB /* RAMItemAnimationProtocol.swift in Sources */,
 				02A2CEED21FF125400648E94 /* DiaryTableViewCell.swift in Sources */,
@@ -482,7 +511,9 @@
 				02B2DD0C21FD268D005E4CBB /* RAMFumeAnimation.swift in Sources */,
 				02AF13B721FA185400080A15 /* SettingsViewController.swift in Sources */,
 				02B2DD1021FD268D005E4CBB /* RAMBounceAnimation.swift in Sources */,
+				0204CBB72201290D006C8456 /* DiariesMO+CoreDataProperties.swift in Sources */,
 				02B2DD0E21FD268D005E4CBB /* RAMTransitionItemAnimations.swift in Sources */,
+				0204CBB5220128BF006C8456 /* DiariesMO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

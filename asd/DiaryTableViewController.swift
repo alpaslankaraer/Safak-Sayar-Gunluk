@@ -8,16 +8,20 @@
 
 import UIKit
 import os.log
+import CoreData
 
 class DiaryTableViewController: UITableViewController {
-
+    
+    
     // MARK: Properties
     
     var diaries = [Diary]()
+    //var messages = [NSManagedObject]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        
         // Use the edit button item provided by the table view controller.
         navigationItem.leftBarButtonItem = editButtonItem
         
@@ -31,10 +35,32 @@ class DiaryTableViewController: UITableViewController {
         }
     }
     
+    func saveNewEntryToDataModel(messages: Diary) {
+        //let photo = UIImage(named: "backButton")
+        
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        
+        let context = appDelegate.persistentContainer.viewContext
+        
+        let newUser = NSEntityDescription.insertNewObject(forEntityName: "Diaries", into: context)
+        
+        newUser.setValue("counter", forKey: "image")
+        newUser.setValue("5. Gün", forKey: "title")
+        newUser.setValue("Merhaba bugün zordu.", forKey: "detail")
+        newUser.setValue("photo", forKey: "currentDate")
+        
+        do {
+            try context.save()
+            print("Saved")
+        } catch  {
+            print("There was an error")
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-   
+    
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -61,7 +87,12 @@ class DiaryTableViewController: UITableViewController {
         
         cell.titleLabel.text = diary.title
         cell.photoImageView.image = diary.photo
-        //cell.dateLabel.text = diary.date
+        
+        let formatter = DateFormatter()
+        formatter.dateFormat = "dd.MM.yyyy"
+        let date = Date(timeIntervalSinceNow: TimeInterval(indexPath.row))
+        cell.dateLabel.text = formatter.string(from: date)
+        
         cell.diaryTextLabel.text = diary.detail
 
         // Configure the cell...
@@ -164,6 +195,16 @@ class DiaryTableViewController: UITableViewController {
     }
     
     
+    func getSingle() {
+        let date = Date()
+        let calendar = Calendar.current
+        let year = calendar.component(.year, from: date)
+        let month = calendar.component(.month, from: date)
+        let day = calendar.component(.day, from: date)
+        
+        //dateLabel.text = "\(day).\(month).\(year)"
+        print("\(day).\(month).\(year)")
+    }
     
     //MARK: Private Methods
     

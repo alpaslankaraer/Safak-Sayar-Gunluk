@@ -1,13 +1,19 @@
 PODS:
   - PNChart (0.8.11):
     - UICountingLabel (~> 1.4.1)
+  - TwitterCore (3.2.0)
+  - TwitterKit (3.4.2):
+    - TwitterCore (>= 3.2.0)
   - UICountingLabel (1.4.1)
 
 DEPENDENCIES:
   - PNChart (from `https://github.com/kevinzhow/PNChart.git`)
+  - TwitterKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - TwitterCore
+    - TwitterKit
     - UICountingLabel
 
 EXTERNAL SOURCES:
@@ -21,8 +27,10 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   PNChart: 7c03cd9afb46dd157d22425c6147167c1ae741b5
+  TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
+  TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
   UICountingLabel: faf890b505d96312e324a86718f031fafffb0ccb
 
-PODFILE CHECKSUM: ed428c0d9448e9479e5f5796042b5bd565a4e49a
+PODFILE CHECKSUM: 35f8e79ca02c0b5aa7c986a7e1fbe70f1751b3a7
 
 COCOAPODS: 1.5.3

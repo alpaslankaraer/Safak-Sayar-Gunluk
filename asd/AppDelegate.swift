@@ -14,8 +14,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        let myTabBar = self.window!.rootViewController as! UITabBarController // Getting Tab Bar
+        myTabBar.selectedIndex = 1 //Selecting tab here
+        
+        
+        // Yerlerini değiştirmek için
+//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//        // change "Main" if your storyboard's filename is different.
+//
+//        let vc1 = storyboard.instantiateViewController(withIdentifier: "gunluk")
+//        let vc2 = storyboard.instantiateViewController(withIdentifier: "safak")
+//        let vc3 = storyboard.instantiateViewController(withIdentifier: "dahafazla")
+//
+//        let tab = UITabBarController()
+//        if UIDevice.current.model.lowercased() == "iphone" {
+//            tab.viewControllers = [vc2, vc1, vc3]
+//        }
+//
+//        window?.rootViewController = tab
+        
+        
         // Override point for customization after application launch.
         return true
     }

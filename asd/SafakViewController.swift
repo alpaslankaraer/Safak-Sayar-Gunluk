@@ -65,7 +65,7 @@ class SafakViewController: UIViewController {
     //var isTimerRunning = false
     
     func runTimer() {
-        timer = Timer.scheduledTimer(timeInterval: 1*3, target: self, selector: (#selector(SafakViewController.updateTimer)), userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: 1*24*60*60, target: self, selector: (#selector(SafakViewController.updateTimer)), userInfo: nil, repeats: true)
         //timeInterval => ne kadar zaman bekleyecekse onu tutuyor. Benim kodumda 1 gün bekleyecek yani 24*60*60
     }
     
